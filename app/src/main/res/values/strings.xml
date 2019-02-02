@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomQS</string>
+    <string name="nfc_tile_name">NFC</string>
+</resources>
