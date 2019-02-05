@@ -58,6 +58,7 @@ public class NfcTileService extends BaseTileService {
         final Boolean status = getNfcStatus();
         tile.setLabel(nfcTileName);
         tile.setIcon(nfcTileIcon);
+        setTileStatus(tile, status);
         tile.updateTile();
     }
 
